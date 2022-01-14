@@ -5,11 +5,18 @@
     <title> bLink University Hospital</title>
     <link rel="stylesheet" href="hospital-css/hospital-styles.css">
 </head>
-<body>
+<body class="body_previous">
+<h5> Previous</h5>
+<DIV>
+    <a href="nextpage.html"> Go Back to next page</a>
+</DIV>
 <h1 style="text-align: center">bLink University Hospital </h1>
 <div style="text-align: center">
     www.blink.com
     </div>
+<div style="text-align: center">
+    <img src="images/logo.jpg.jpeg" alt="loading logo picture" width="200" height="100">
+</div>
 <h2 style="text-align: center">Registration Form</h2>
 
 <h3 style="text-align: center">Personal information</h3>
@@ -31,7 +38,7 @@
 
     <div>
         <label>Passport/ID number </label><br>
-        <input class="inputstyle" type="number" name="psaaport/id">
+        <input class="inputstyle" type="number" name="passport/id">
     </div>
                   <div>
                      <label>Location</label>
@@ -43,15 +50,18 @@
 
                         </select>
                     </div>
-
+    <div>
+        <label>Date of Admission </label><br>
+        <input class="inputstyle" type="date" name="admission date">
+    </div>
                     <div>
                       <label>Phone Number </label><br>
-                        <input class="inputstyle" type="tel" name="pnumber" placeholder="0726721341">
+                        <input class="inputstyle" type="tel" name="pnumber">
                     </div>
 
                   <div>
                     <label>Email Address </label><br>
-                      <input class="inputstyle" type="email" name="email" placeholder="john@gmail.com">
+                      <input class="inputstyle" type="email" name="email">
                      </div>
 
                    <div>
@@ -96,15 +106,15 @@
 
                    <div>
                        <label>Marital Status </label><br>
-                         <input class="inputstyle" type="checkbox" name="single">
+                         <input class="otherinputs" type="checkbox" name="single">
                        <label>Single </label><br>
-                         <input class="inputstyle" type="checkbox" name="married">
+                         <input class="otherinputs" type="checkbox" name="married">
                        <label>Married </label><br>
-                         <input class="inputstyle" type="checkbox" name="divorced">
+                         <input class="otherinputs" type="checkbox" name="divorced">
                        <label>Divorced </label><br>
-                         <input class="inputstyle" type="checkbox" name="separated">
+                         <input class="otherinputs" type="checkbox" name="separated">
                        <label>Separated </label><br>
-                         <input class="inputstyle" type="checkbox" name="widowed">
+                         <input class="otherinputs" type="checkbox" name="widowed">
                        <label>Widowed </label><br>
                    </div>
 
@@ -113,11 +123,11 @@
                         <textarea name="ao1" cols="10" rows="5" placeholder="Sign here..."></textarea>
                    </div>
 
-    <div><
+    <div>
         <p style="page-break-before: always"p>
     </div>
     <div>
-        <a href="" class="next">Next Page</a>
+        <a href="" class="next">&raquo;Next Page</a>
     </div>
 
     <h4 style="text-align: center">Insurance information</h4>
@@ -181,12 +191,12 @@
                        <textarea name="ao1" cols="30" rows="10" placeholder="write something..."></textarea>
                   </div>
     <div>
-        <a href="" class="previous">Previous Page</a>
+        <a href="" class="previous">&laquo;Previous Page</a>
     </div>
+
 
     <div>
         <input type="submit" value="submit">
-
         <div>
             <a href="https://www.google.com/" target="_blank">To google</a>
             <a href="prog.html" target="_blank">To about Page</a>
