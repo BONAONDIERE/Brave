@@ -1,0 +1,43 @@
+form{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color:teal;
+}
+.inputstyle{
+    width: 75%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin: 9px;
+
+}
+.otherinputs{
+    box-sizing: border-box;
+    padding: 10px 12px;
+    margin:9px;
+}
+#button {
+    background-color: azure;
+    padding: 5px 5px;
+    width: 40%;
+}
+.break{
+    page-break-before: always;
+
+}
+.styleimage{
+    margin-right: auto;
+    margin-left: auto;
+}
+.next{
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 5px;
+}
+.previous {
+    background-color: darkgoldenrod;
+    color: white;
+    border-radius: 5px;
+}
