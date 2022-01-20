@@ -34,12 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hospital forms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave\Js" />
       <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave\Hospital forms" />
       <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave" />
     </key>
@@ -64,7 +65,9 @@
       <workItem from="1642397698715" duration="4756000" />
       <workItem from="1642405576869" duration="8694000" />
       <workItem from="1642442689005" duration="2722000" />
-      <workItem from="1642492295302" duration="7340000" />
+      <workItem from="1642492295302" duration="8231000" />
+      <workItem from="1642582386801" duration="884000" />
+      <workItem from="1642666708280" duration="6747000" />
     </task>
     <servers />
   </component>
