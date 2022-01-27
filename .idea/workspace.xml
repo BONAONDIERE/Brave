@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -41,6 +41,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave\Js" />
+      <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave\images" />
       <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave\Hospital forms" />
       <recent name="C:\Users\Admin\PhpStorm 2021.3.1\Brave" />
     </key>
@@ -69,7 +70,18 @@
       <workItem from="1642582386801" duration="884000" />
       <workItem from="1642666708280" duration="7052000" />
       <workItem from="1642699781913" duration="588000" />
-      <workItem from="1642752545018" duration="9116000" />
+      <workItem from="1642752545018" duration="9216000" />
+      <workItem from="1642926308850" duration="4742000" />
+      <workItem from="1642999147021" duration="1653000" />
+      <workItem from="1643002422936" duration="19533000" />
+      <workItem from="1643022760070" duration="4953000" />
+      <workItem from="1643051722123" duration="6762000" />
+      <workItem from="1643095382211" duration="23505000" />
+      <workItem from="1643181290577" duration="4025000" />
+      <workItem from="1643188053186" duration="17469000" />
+      <workItem from="1643228240032" duration="5134000" />
+      <workItem from="1643265638351" duration="16575000" />
+      <workItem from="1643318145204" duration="1072000" />
     </task>
     <servers />
   </component>

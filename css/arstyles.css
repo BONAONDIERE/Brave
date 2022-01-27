@@ -1,3 +1,9 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
 .arlinks{
     list-style-type: none;
     background-color: darkolivegreen;
@@ -56,9 +62,6 @@ nav,section{
  margin: 3px;
     padding: 3px;
 }
-#gallery img{
-    border-radius: 50%;
-}
 .flexbox >div{
     margin: 2px;
     padding: 2px;
@@ -71,31 +74,7 @@ border: 1px solid green;
 padding: 30px;
     background-color: lightgray;
 }
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.col-20{
-float: left;
-    width:20% ;
-    margin: 6px;
-}
-.col-25{
-    float: left;
-    width:25% ;
-    margin: 6px;
-}
-.col-80{
-    float: left;
-    width:80% ;
-    margin: 6px;
-}
-.col-75{
-    float: left;
-    width:75% ;
-    margin: 6px;
-}
+
 input,textarea{
 width: 90%;
     padding: 10px;

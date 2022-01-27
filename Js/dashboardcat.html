@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Cat</title>
+    <link rel="stylesheet" href="css/dashcatstyles">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <!--        The menu will be here-->
+
+        <div class="col-3 bg-primary">
+            <ul class="nav flex-column">
+                <li class="nav-item navstyles" >
+                    <i class="fa fa-ravelry fa-3x text-white"></i>
+                    <span class="h4 text-white">BRAVE ADMIN</span>
+                </li>
+
+                <hr>
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-dashboard text-white"></i>
+                        <span class="text-white">Dashboard</span>
+                    </a>
+                </li>
+
+
+                <hr>
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-users text-white"></i>
+                        <span class="text-white">Participants</span>
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#"></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">Lecturers</a></li>
+                                                <li><a class="dropdown-item" href="#">Students</a></li>
+                                                <li><a class="dropdown-item" href="#">Others</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </a>
+                </li>
+
+
+
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-cogs text-white"></i>
+                        <span class="text-white">Components</span>
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#"></a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Dropdown
+                                            </a>
+                                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                                <li><a class="dropdown-item" href="#">AAssignments</a></li>
+                                                <li><a class="dropdown-item" href="#">Class Recordings</a></li>
+                                                <li><a class="dropdown-item" href="#">References</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </a>
+                </li>
+
+
+
+                <hr>
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-file text-white"></i>
+                        <span class="text-white">Documents</span>
+
+                    </a>
+                </li>
+
+
+
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-line-chart text-white"></i>
+                        <span class="text-white">Charts</span>
+                    </a>
+                </li>
+
+
+                <hr>
+                <li class="nav-item navstyles">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-wrench text-white"></i>
+                        <span class="text-white">Settings</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!--The content will be here-->
+        <div class="col-9 bg-light">
+            <div class="row bg-white">
+                <div class="col-6">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <form class="d-flex">
+                                <input class="col-6 form-control me-2" type="search" placeholder="search here..." aria-label="search">
+                                <button class="btn btn-outline-primary" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+
+
+                <div class="col-5">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link"href="#">
+                                            <i class="fa fa-bell fa-lg"></i>
+                                            <span class="badge rounded-pill bg-danger">5+</span>
+                                        </a>
+                                    </li>
+
+
+
+                                    <li class="nav-item">
+                                            <i class="fa fa-envelope fa-lg" data-bs-toggle="collapse"
+                                               href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                                <span class="badge rounded-pill bg-danger">35+</span>
+                                            </i>
+
+                                        <div class="collapse" id="collapseExample">
+                                            <div class="card card-body">
+                                                No Tasks at the moment
+                                            </div>
+                                            <div class="card card-body">
+                                                Pending Tasks
+                                            </div>
+                                            <div class="card card-body">
+                                                Submitted Tasks
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link"href="#">
+                                            Ruth Bonareri|
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <img src="images/image11.jpeg" alt="" class="rounded-circle float-end" width="50" height="50">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+
+
+
+                                  <div class="row m-2">
+                                    <div class="col-3">
+                                        <div class="alert">
+                                          <div class="alert alert-primary" role="alert">
+                                             A simple primary alert—check it out!
+                                          </div>
+                                          <div class="alert alert-secondary" role="alert">
+                                           A simple secondary alert—check it out!
+                                          </div>
+                                          <div class="alert alert-success" role="alert">
+                                            A simple success alert—check it out!
+                                          </div>
+                                    </div>
+                                    </div>
+
+
+
+                                        <div class="col-3">
+                                            <div class="alert">
+                                              <div class="alert alert-danger" role="alert">
+                                                  A simple danger alert—check it out!
+                                              </div>
+                                              <div class="alert alert-warning" role="alert">
+                                                  A simple warning alert—check it out!
+                                              </div>
+                                              <div class="alert alert-info" role="alert">
+                                                  A simple info alert—check it out!
+                                              </div>
+                                        </div>
+                                        </div>
+
+
+                                       
+                                        <div class="col-5">
+                                            <ul class="list-group">
+                                             <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                 A list item
+                                                 <span class="badge bg-primary rounded-pill">14</span>
+                                             </li>
+                                             <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                  A second list item
+                                                 <span class="badge bg-primary rounded-pill">2</span>
+                                             </li>
+                                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                   A third list item
+                                                   <span class="badge bg-primary rounded-pill">1</span>
+                                                </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                  A forth list item
+                                               <span class="badge bg-primary rounded-pill">7</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                               A fifth list item
+                                                <span class="badge bg-primary rounded-pill">9</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center bg-primary text-white">
+                                              A sixth list item
+                                               <span class="badge bg-primary rounded-pill">3</span>
+                                            </li>
+                                            </ul>
+                                        </div>
+                                </div>
+            </div>
+            </div>
+
+
+
+                <footer class="row bg-white p-2">
+                    <div class="text-center grey">
+                        <small>&copy; eMobilis Brave 2022</small>
+
+                    </div>
+
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</body>
+</html>
