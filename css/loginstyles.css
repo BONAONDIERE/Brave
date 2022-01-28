@@ -1,0 +1,66 @@
+*{margin: 0;
+    padding:0;
+    box-sizing: border-box ;
+  border-color: grey;
+
+}
+.login{
+    float: left;
+    font-weight: bolder;
+
+}
+.submit{
+    background-color: #0b5ed7;
+    color: white;
+    float: right;
+   padding: 4px 4px;
+    border-radius: 4px;
+
+}
+.center{
+    text-align: center;
+
+}
+.forgot{
+    float: right;
+}
+.create{
+    color: black;
+}
+section{
+    position: relative;
+
+    background: none;
+   background-position: center center;
+}
+.form-container{
+    align-content: center;
+    position: center;
+    width: 80%;
+    padding: 50px 30px;
+
+}
+h5{
+    font-size: 1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: black;
+    outline: none;
+    margin: 1em 0;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+    opacity: .7;
+    transition: opacity;
+}
+.link a:hover{
+    opacity: 1;
+
+}

@@ -37,13 +37,15 @@ nav li a:hover{
     transition: .4s;
 }
 .styleimages{
-    background-image: url("../images/image11.jpeg");
+
     height: 500px;
     background-repeat: no-repeat;
    background-size: contain;
     background-position: left;
     position: relative;
 }
+
+
 .content{
     float: right;
 position: relative;

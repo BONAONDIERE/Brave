@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -36,6 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Js/login.html" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -81,7 +82,9 @@
       <workItem from="1643188053186" duration="17469000" />
       <workItem from="1643228240032" duration="5134000" />
       <workItem from="1643265638351" duration="16575000" />
-      <workItem from="1643318145204" duration="1072000" />
+      <workItem from="1643318145204" duration="15753000" />
+      <workItem from="1643356677622" duration="25957000" />
+      <workItem from="1643383303417" duration="3834000" />
     </task>
     <servers />
   </component>
