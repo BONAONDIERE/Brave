@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link rel="stylesheet" href=" css/portfoliostyles.css">
+    <link rel="stylesheet" href=" portfoliostyles.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -11,16 +11,24 @@
     <script src="js/popper.min.js"></script>
 </head>
 <body>
-<nav>
-    <h2 class="logo"> Portfo<span>lio</span></h2>
-    <ul class="plinks">
-        <li><a href="#home"> Home</a></li>
-        <li><a href="#about"> About</a></li>
-        <li><a href="#services"> Services</a></li>
-        <li><a href="skills"> Skills</a></li>
-        <li><a href=""> Contact Us</a></li>
-        <a href="#" class="sbtn">Subscribe</a>
-    </ul>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <h2 class="logo"> Portfo<span>lio</span></h2>
+
+    </ol>
+</nav >
+
+
+<nav class="nav li background "aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">About Me</a></li>
+        <li class="breadcrumb-item"><a href="#">Services</a></li>
+        <li class="breadcrumb-item"><a href="#">Skills</a></li>
+        <li class="breadcrumb-item"><a href="#">Contact Me</a></li>
+<a href="#" class="sbtn float-end ">Subscribe</a>
+    </ol>
+
 </nav>
 
 
@@ -29,15 +37,19 @@
 <div class="row m-2 ">
     <div class="col">
          <div class="card" style="width: 18rem;">
-           <img src="images/image11.jpeg" class="card-img-top position-relative" alt="loading" width="400" height="500">
+           <img src="images/image11.jpeg" class="card-img-top position-relative" alt="loading">
              <div class="card-body ">
-                <p class="card-text align-bottom">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                 <h5 class="card-title center"> Developer<span>& Designer</span></h5>
+                <p class="card-text align-bottom"> Welcome to the world of technology.Coding is fun!!.</p>
              </div>
          </div>
     </div>
 
 
-    <div class="col">
+
+
+
+    <div class="col-9">
         <div class="card  ">
             <div class="card-body position-relative">
                 <div class="content items-center ">
@@ -46,9 +58,10 @@
                        <h3> Ruth <span>Bonareri</span></h3>
                          <h4>I'm a Web Developer</h4>
                     <form>
-                        <input type="email" name="email"  id="email" placeholder="Enter Your Email">
+                        <input class="border bg-light" type="email" name="email"  id="email" placeholder="Enter Your Email"><br>
 
-                        <input type="submit"  name="submit" value="Let's start" >
+
+                        <a href="#" class="background text-center align-content-center ">Let's talk</a>
                     </form>
                     </div>
                 </div>
@@ -59,202 +72,148 @@
 
 
 
-
-
-        </div>
-    </div>
-
-
-
-<div class="col-9">
-    <div class="row">
-        <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-subtitle mb-2 text-muted">My Qualifications</h6>
-                <p class="card-text">I am a front-end web developer. I can provide a clean code and pixel perfect design.
-                    I also make the website more and more interactive with web animations.
-                    A responsive design makes your website accessible to all user, regardless of their device</p>
-                <a href="#" class="card-link"></a>
-                <a href="#" class="card-link"></a>
+<div col>
+    <div class=" card text-center">
+        <div class="card" >
+            <div class="card-header center align-content-center background">
+                Qualifications
             </div>
         </div>
-        </div>
+    </div>
+</div>
+
+<div class="col-12">
+    <div class="row">
+
 
       <div class="col">
-        <div class="card" style="width: 18rem;">
+        <div class="card" >
             <div class="card-body">
                 <h5 class="card-title"></h5>
                 <h6 class="card-subtitle mb-2 text-muted">My Work</h6>
                 <p class="card-text">I am a front-end web developer. I can provide a clean code and pixel perfect design.
                     I also make the website more and more interactive with web animations.
                     A responsive design makes your website accessible to all user, regardless of their device</p>
-                <a href="#" class=""></a>
-                <a href="#" class=""></a>
+                <a href="#" class="background">Let's talk</a>
             </div>
         </div>
     </div>
 
-        <div class="col">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <h6 class="card-subtitle mb-2 text-muted">My Hobies</h6>
-                <p class="card-text">I am a front-end web developer. I can provide a clean code and pixel perfect design.
-                    I also make the website more and more interactive with web animations.
-                    A responsive design makes your website accessible to all user, regardless of their device.</p>
-                <a href="#" class=""></a>
-                <a href="#" class=""></a>
-            </div>
-        </div>
-    </div>
+
 
         <div class="col">
-        <div class="card w-75">
-            <div class="card-body">
-                <h5 class="card-title">My Qualifications</h5>
+            <div class="card" >
+              <div class="card-body">
+                <h5 class="card-title">My Hobies</h5>
                 <p class="card-text">I am a front-end web developer.
                     I can provide a clean code and pixel perfect design.
                     I also make the website more and more interactive with web animations.
                     A responsive design makes your website accessible to all user, regardless of their device.</p>
-                <a href="#" class="btn btn-primary">Let's talk</a>
-            </div>
-        </div>
+                <a href="#" class="background">Let's talk</a>
+              </div>
+           </div>
         </div>
 
+
+
         <div class="col">
-        <div class="card w-50">
-            <div class="card-body">
-                <h5 class="card-title">My Work</h5>
-                <p class="card-text">I am a front-end web developer.
-                    I can provide a clean code and pixel perfect design.
-                    I also make the website more and more interactive with web animations.
-                    A responsive design makes your website accessible to all user, regardless of their device.</p>
-                <a href="#" class="btn btn-primary">Let's talk</a>
+            <div class="card" >
+                <div class="card-body">
+                    <h5 class="card-title">My Work</h5>
+                    <p class="card-text">I am a front-end web developer.
+                        I can provide a clean code and pixel perfect design.
+                        I also make the website more and more interactive with web animations.
+                        A responsive design makes your website accessible to all user, regardless of their device.</p>
+                    <a href="#" class="background">Let's talk</a>
+                </div>
             </div>
         </div>
-        </div>
     </div>
+
 
         <div col>
-        <div class=" card text-center col-3 m-2">
-        <div class="card" style="width: 18rem;">
-            <div class="card-header center">
+          <div class=" card text-center">
+           <div class="card" >
+              <div class="card-header center align-content-center  background">
                 About Me
-            </div>
-            <div class="card-body">
-                <h5 class="card-title center"> Developer<span>& Designer</span></h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Let's talk</a>
-            </div>
+              </div>
+           </div>
+          </div>
         </div>
-        </div>
-        </div>
+
 </div>
 
 
 
 
 <div class="row">
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title"></h5>
-            <h6 class="card-subtitle mb-2 text-muted">Web Development</h6>
-            <p class="card-text">Every website should be built with two primary goals.
-                Firstly,it needs to work across all devices.
-                Secondly,it needs to be fast as possible</p>
-            <a href="#" class="card-link"></a>
-            <a href="#" class="card-link"></a>
-        </div>
-    </div>
 
-
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title"></h5>
-            <h6 class="card-subtitle mb-2 text-muted">Web Development</h6>
-            <p class="card-text">Every website should be built with two primary goals.
-                Firstly,it needs to work across all devices.
-                Secondly,it needs to be fast as possible</p>
-            <a href="#" class="card-link"></a>
-            <a href="#" class="card-link"></a>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
+    <div class="col">
+    <div class="card" style="">
         <div class="card-body">
             <h5 class="card-title"></h5>
             <h6 class="card-subtitle mb-2 text-muted">Web Development</h6>
             <p class="card-text">Every website should be built with two primary goals.
                 Firstly,it needs to work across all devices.
                 Secondly,it needs to be fast as possible.</p>
-            <a href="#" class="card-link"></a>
-            <a href="#" class="card-link"></a>
+            <a href="#" class="background">Read More</a>
         </div>
+    </div>
     </div>
 
     <div class="col">
-        <div class="card w-75">
+        <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Web Development</h5>
                 <p class="card-text">Every website should be built with two primary goals.
                     Firstly,it needs to work across all devices.
                     Secondly,it needs to be fast as possible.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="background">Read More</a>
             </div>
         </div>
     </div>
 
     <div class="col">
-        <div class="card w-50">
+        <div class="card ">
             <div class="card-body">
                 <h5 class="card-title">Web Development</h5>
                 <p class="card-text">Every website should be built with two primary goals.
                     Firstly,it needs to work across all devices.
                     Secondly,it needs to be fast as possible.</p>
-                <a href="#" class="btn btn-primary">Read More</a>
+                <a href="#" class="background">Read More</a>
             </div>
         </div>
     </div>
 </div>
 
 
-    <div class="center" >
-        <h1 class="center"> Let Me Get You A Beautiful Website</h1>
-        <button class="btn" href="#"> Hire Me</button>
+    <div class="center align-content-center" >
+        <h1 class="center align-content-center"> Let Me Get You A Beautiful Website</h1>
+        <a href="#" class=" background">Hire Me</a>
     </div>
 
 
 
-    <h1 class="contact" > Contacts</h1>
-       <div class="contact">
-            <input type="text"name="name"placeholder=" Ruth Bonareri">
-
-           <input type="text" name="email" placeholder="bonareriondiere@gmail.com">
-
-           <input type="text"name="pnumber" placeholder="+254705616648" >
-
+    <h1> Contact Me</h1>
+               <a href="#"><i class=" fa fa-mobile"></i>+254705616648</a><br>
+               <a href="#"><i class=" fa fa-gmail"></i>bonareriondiere@gmail.com</a><br>
+               <a href="#"><i class="fa fa-google"></i>bonareriondiere</a><br>
+               <a href="#"><i class="	fa fa-facebook-official">bonareri Ondiere</i></a><br>
+               <a href="#"><i class="fa fa-github">@BONA ONDIERE</i></a><br>
+               <a href="#"><i class="fa fa-instagram">Ondierebonareri</i></a><br>
+               <a href="#"><i class="fa fa-whatsapp"></i>+254705616648</a><br>
+           </div>
        </div>
 
 
 
     <footer id="footer">
-        <p> Ruth Bonareri</p>
-        <p> For more HTML,CSS,PHP,BOOTSTRAP and coding tutorial-please click on the link below to
+        <p class=" text-center"> Ruth Bonareri</p>
+        <p class="text-center"> For more HTML,CSS,PHP,BOOTSTRAP and coding tutorial-please click on the link below to
             subscribe to my channel</p>
-
-        <div class="social">
-            <a href="#"><i class="fa fa-google"></i></a>
-            <a href="#"><i class="	fa fa-facebook-official"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"><i class="fa fa-whatsapp"></i></a>
-        </div>
-
-        <p class="end"> copyRight By Ruth Bonareri</p>
+        <p class="text-center"> copyRight By Ruth Bonareri</p>
     </footer>
 
-</section>
+
 </body>
 </html>
